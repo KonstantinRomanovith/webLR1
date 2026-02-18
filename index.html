@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя домашняя страница</title>
+    <!-- Подключение шрифтов с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Подключение внешнего CSS файла -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка с меню -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Мой Сайт</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <div class="container">
+            <!-- Главная секция -->
+            <section id="home" class="hero">
+                <h2>Добро пожаловать на мой сайт</h2>
+                <p>Это простая домашняя страница, созданная для демонстрации базовых возможностей HTML и CSS.</p>
+                <a href="#about" class="btn">Узнать больше</a>
+            </section>
+
+            <!-- О нас -->
+            <section id="about" class="section">
+                <h2>О нас</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Мы занимаемся созданием простых и функциональных веб-сайтов. Наша цель - сделать интернет более доступным и понятным для всех пользователей.</p>
+                        <p>Наша команда состоит из опытных разработчиков, которые постоянно изучают новые технологии и применяют их в своих проектах.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="picture/4.jpg" alt="Рабочее место разработчика">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Галерея -->
+            <section id="gallery" class="section">
+                <h2>Галерея</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="picture/1.png" alt="Код на экране">
+                        <p>Веб-разработка</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="picture/2.jpg" alt="Дизайн">
+                        <p>Веб-дизайн</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="picture/3.jpg" alt="Тестирование">
+                        <p>Тестирование</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Таблица -->
+            <section id="services" class="section">
+                <h2>Наши услуги</h2>
+                <p>Мы предлагаем широкий спектр услуг по созданию и поддержке веб-сайтов:</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Услуга</th>
+                            <th>Описание</th>
+                            <th>Сроки</th>
+                            <th>Стоимость</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Сайт-визитка</td>
+                            <td>Простой одностраничный сайт с основной информацией</td>
+                            <td>3-5 дней</td>
+                            <td>от 10 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Корпоративный сайт</td>
+                            <td>Многостраничный сайт для компании</td>
+                            <td>10-15 дней</td>
+                            <td>от 30 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Интернет-магазин</td>
+                            <td>Полнофункциональный онлайн-магазин</td>
+                            <td>20-30 дней</td>
+                            <td>от 50 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Поддержка сайта</td>
+                            <td>Обновление контента и техническая поддержка</td>
+                            <td>По договоренности</td>
+                            <td>от 5 000 ₽/мес</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Контакты</h3>
+                    <p><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 10</p>
+                    <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+                    <p><strong>Email:</strong> info@mysite.ru</p>
+                    <p><strong>Режим работы:</strong> Пн-Пт: 9:00-18:00</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Мой Сайт. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
